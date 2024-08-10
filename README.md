@@ -2,9 +2,9 @@
   <img src="assets/reprograma-fundos-claros.png" alt="logo reprograma" width="500">
 </h1>
 
-# Tema da Aula
+# Tratamento de dados utilizando pandas e numpy
 
-Turma Online X | Semana X | 202X | Professora X
+Turma Online | Semana 11 | 2024 | Professora Daviny Letícia
 
 ### Instruções
 Antes de começar, vamos organizar nosso setup.
@@ -15,66 +15,90 @@ Antes de começar, vamos organizar nosso setup.
 
 ### Resumo
 O que veremos na aula de hoje?
-* [Tema1](#tema1)
-* [Tema2](#tema2)
-* [Tema3](#tema3)
+* Analise
+* Coleta e Tratamento
+* Base de dados
+* Instalando
+* Series e Dataframes
+* Pandas
 
 ## Conteúdo
-### Tema1 
-1. [Tópico 1](#topico1)
-2. [Tópico 2](#topico2)
-### Tema2 
-1. [Tópico 3](#topico3)
-   * [Subtópico 1](#subtopico1)
-   * [Subtópico 2](#subtopico2)
-   
-### Tema3
-1. [Tópico 4](#topico4)
+### Analise
+1. Pq usamos o python para analisar dados
+### Coleta e Tratamento
+1. Comos são os dados no mundo real
+2. Indo no INMET para baixar os dados
+   * Baixando os dados
+   * Processando eles
 
-### Tema1 
+### Base de dados
+1. Conhecendo os dados da base
+   * Temperatura
+   * Posição
+   * Tempo
+   * Radiação
+   * Vento
+   * Pressão
+   * Umidade
 
-#### Topico1
+### Instalando
+1. Interfaces
+   * VS Code
+   * Jupyter
+   * Colab
+2. Modulos
+   * pandas
+   * numpy
+   * matplotlib
+3. VS Code
+   * instalando modulo
+4. Jupyter
+   * instalando o jupyter
+   * instalando o notebook
+   * abrindo o jupyter
+   * instalando modulo
+5. Colab
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit. Nunc tempor libero tortor, ac commodo erat porttitor ut. Donec vitae orci arcu. Nunc felis mi, maximus a turpis a, mollis pulvinar enim. Vivamus aliquam ante dui, a blandit massa rutrum et. Etiam hendrerit gravida ultrices. Nunc ante massa, dictum eget justo eget, feugiat tincidunt metus.
+### Series e Dataframes
+1. Series
+2. Dataframes
 
- #### Topico2
-  - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  - Donec erat mauris, laoreet in tortor vel
-  - Nunc ante massa, dictum eget justo eget, feugiat tincidunt.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit.
-
-### Tema2
-#### Topico3
-* [Subtópico 1](#subtopico1)
-* [Subtópico 2](#Subtopico2)
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel.
-
-##### Subtopico1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel.
-
-##### Subtopico2
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel.
-
-### Tema3
-#### Topico4
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit. Nunc tempor libero tortor, ac commodo erat porttitor ut. Donec vitae orci arcu. Nunc felis mi, maximus a turpis a, mollis pulvinar enim. Vivamus aliquam ante dui, a blandit massa rutrum et. Etiam hendrerit gravida ultrices.
+### Pandas
+1. função read_csv()
+2. função head()
+3. função tail()
+4. função shape
+5. função describe()
+6. função dtypes
+7. função sample() e reset_index()
+8. reduzir o dataframe
+9. função columns
+10. Selecionar uma coluna
+11. função min(), max(), sum() e mean()
+12. função isnull()
+13. função dropna()
+14. função fillna()
+15. função replace()
+16. função drop_duplicates()
+17. normalização
 
 ***
 ### Exercícios 
-* [Exercicio para sala](https://github.com/mflilian/repo-example/tree/main/exercicios/para-sala)
+* [Exercicio para sala](https://docs.google.com/spreadsheets/d/1PUtJ7kFL3YuzfPVdtaa4e-WuL8tbD1UOGELFwa4xgsg/edit?usp=sharing)
 * [Exercicio para casa](https://github.com/mflilian/repo-example/tree/main/exercicios/para-casa)
 
 ### Material da aula 
 
 ### Links Úteis
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-
+- [INMET](https://portal.inmet.gov.br/)
+- [Pandas](https://pandas.pydata.org/)
+- [Numpy](https://numpy.org/)
+- [Matplotlib](https://matplotlib.org/)
+- [Jupyter](https://jupyter.org/)
+- [Colab](https://colab.research.google.com/)
 
 <p align="center">
 Desenvolvido com :purple_heart:  
 </p>
 
+.
