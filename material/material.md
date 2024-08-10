@@ -8,6 +8,7 @@ import pandas as pd
 
 # Lê o arquivo CSV e cria um DataFrame
 df = pd.read_csv('caminho/para/seu_arquivo.csv')
+df = pd.read_csv('ON35-S11-PLANILHA.CSV', delimiter=';', skiprows=8, encoding='latin1')
 ```
 
 ### 2. `head()`
