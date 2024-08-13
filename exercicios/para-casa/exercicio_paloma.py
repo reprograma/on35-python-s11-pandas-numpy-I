@@ -3,7 +3,7 @@
 
 import pandas as pd
 
-df = pd.read_csv('ON35-S11-PLANILHA.CSV', delimiter=';', skiprows=8, encoding='latin1')
+df = pd.read_csv('', delimiter=';', skiprows=8, encoding='latin1')
 
 df.head()
 
@@ -15,7 +15,7 @@ coluna_temperatura = pd.to_numeric(df['TEMPERATURA DO AR - BULBO SECO, HORARIA (
 
 coluna_temperatura.mean()
 
-# - retirar nulos da coluna 'RADIACAO GLOBAL (Kj/m2)' # substituir por PRECIPITAÇÃO TOTAL, HORÁRIO (mm)
+# - retirar nulos da coluna 'RADIACAO GLOBAL (Kj/m2)'
 
 df_sem_nulos_colunas = df.dropna(axis=1)
 
