@@ -3,7 +3,7 @@
 
 import pandas as pd
 
-df = pd.read_csv('', delimiter=';', skiprows=8, encoding='latin1')
+df = pd.read_csv('INMET_CO_MS_S704_BONITO_01-01-2020_A_31-12-2020.CSV', delimiter=';', skiprows=8, encoding='latin1')
 
 df.head()
 
