@@ -8,7 +8,7 @@ import pandas as pd
 
 # Lê o arquivo CSV e cria um DataFrame
 df = pd.read_csv('caminho/para/seu_arquivo.csv')
-```
+df = pd.read_csv('seu_arquivo.csv', delimiter=';', skiprows=8)
 
 ### 2. `head()`
 Exibe as primeiras linhas do DataFrame. Por padrão, mostra as 5 primeiras linhas.
