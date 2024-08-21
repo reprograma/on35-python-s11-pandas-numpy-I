@@ -78,6 +78,8 @@ Selecionar um subconjunto de colunas e/ou linhas.
 # Selecionar 3 colunas específicas
 df_reduzido = df[['Coluna1', 'Coluna2', 'Coluna3']]
 
+df_reduzido.head()
+
 # Selecionar 1000 linhas aleatórias
 df_reduzido = df_reduzido.sample(n=1000, random_state=42)
 ```
@@ -129,6 +131,9 @@ Identifica valores nulos no DataFrame, retornando um DataFrame booleano.
 nulos = df.isnull()
 print(nulos)
 
+#numeros nulos
+df.isnull().sum()
+
 # Contagem de valores nulos em cada coluna
 nulos_por_coluna = df.isnull().sum()
 print(nulos_por_coluna)
@@ -143,7 +148,16 @@ df_sem_nulos = df.dropna()
 
 # Remove colunas que contenham valores nulos
 df_sem_nulos_colunas = df.dropna(axis=1)
+
+# Remover coluna valores
+df_sem_nulo = df.dropna(subset=['nome da coluna'])
 ```
+
+# Remover 
+
+remover = df.dropna(axis=0, how='all')
+remover
+
 
 ### 14. `fillna()`
 Preenche valores nulos com um valor específico.
@@ -161,11 +175,12 @@ Substitui valores específicos no DataFrame.
 
 ```python
 # Substitui todos os valores 0 por NaN
-df_substituido = df.replace(0, np.nan)
+df_substituido = df.replace(0, -1)
 
 # Substitui um valor específico em uma coluna
 df['Coluna1'] = df['Coluna1'].replace('ValorAntigo', 'ValorNovo')
 ```
+df_substituido.head(9)
 
 ### 16. `drop_duplicates()`
 Remove linhas duplicadas do DataFrame.
@@ -188,4 +203,9 @@ df['Coluna1_normalizada'] = (df['Coluna1'] - df['Coluna1'].min()) / (df['Coluna1
 # Outra forma de normalização usando o método z-score (normalização padrão)
 df['Coluna1_zscore'] = (df['Coluna1'] - df['Coluna1'].mean()) / df['Coluna1'].std()
 ```
+
+# coluna_temperatura_maxima = pd.to_numeric(df('TEMPERATURA MÁXIMA NA HORA ANT. (AUT) (°C)'), errors='coerce')
+# coluna_temperatura_maxima = pd.to_numeric(df['TEMPERATURA MÁXIMA NA HORA ANT. (AUT) (°C)'], errors='coerce')
+
+# pip install matplotlib
 
